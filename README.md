@@ -1,80 +1,74 @@
-# 🚴 Bikers Sales Dashboard - Tableau Project
 
-![Tableau](https://img.shields.io/badge/Tool-Tableau-blue.svg)
-![Excel](https://img.shields.io/badge/Data%20Source-Excel-yellowgreen)
-![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
+# 📉 Layoffs Data Analysis – SQL Project
+
+![SQL](https://img.shields.io/badge/Tool-SQL-blueviolet)  
+![CSV](https://img.shields.io/badge/Data%20Source-CSV-yellowgreen)  
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)  
 ![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+---
 
 ## 📊 Project Overview
 
-This project showcases a Tableau dashboard created to analyze biker sales and business performance metrics using cleaned and pre-processed data from Excel.  
-It aims to deliver valuable business insights related to product categories, regional performance, and customer trends for a biking product business.
+This project focuses on analyzing global **layoffs data** using **SQL** for data cleaning, transformation, and exploratory data analysis.  
+The goal is to derive actionable insights into layoff trends, affected industries, company behavior, and regional patterns using raw data from a `.csv` file.
 
 ---
 
 ## 🗂️ Project Files
 
-- `Bikers Dashboard.xlsx` – The cleaned dataset used to build the Tableau dashboards.
-- `Data Cleaning.xlsx` – The raw dataset before preprocessing, showing the transformation journey.
+- `layoffs.csv` – Original dataset containing layoff records across companies and industries.  
+- `Data Cleaning.sql` – SQL script used to clean, format, and preprocess the raw data.  
+- `Exploratory Data Analysis.sql` – SQL queries to extract trends, summaries, and key insights from the cleaned data.
 
 ---
 
 ## 📌 Key Features
 
-- 📈 **Sales by Region**: Analyze sales distribution across countries and states.
-- 💼 **Product Category Performance**: Breakdown of sales by product lines and categories.
-- 👥 **Customer Segments**: Insights into customer types and buying behavior.
-- 📦 **Order Trends**: Time-series view of monthly and yearly order trends.
-- 🎯 **Top Products**: Highlights the most profitable and popular items.
+- ✅ **Data Cleaning**:
+  - Removed duplicates
+  - Handled nulls and incorrect data types
+  - Standardized column names
+- 📊 **Exploratory Analysis**:
+  - Layoffs by year, country, and industry
+  - Top companies with the highest layoffs
+  - Funding stage analysis vs layoff severity
+  - Trend of layoffs over time
 
 ---
 
-## 💡 Insights Highlighted
+## 💡 Questions Answered
 
-- Which regions generate the most revenue?
-- What product categories perform best across different quarters?
-- How does customer type affect buying patterns?
-- What are the peak sales months or quarters?
-
----
-
-## 📈 Tools Used
-
-- **Tableau Public / Tableau Desktop** – for visualization and dashboarding
-- **Microsoft Excel** – for data cleaning, preprocessing, and transformation
+- Which companies laid off the most employees?
+- What industries were most affected by layoffs?
+- How do layoffs vary across different years or funding stages?
+- Are there certain countries with consistently high layoffs?
 
 ---
 
-## 📥 Getting Started
+## 🛠️ Tools & Technologies Used
 
-To view the dashboard and data:
-
-1. Open `Data Cleaning.xlsx` to view raw input and cleaning steps.
-2. Explore `Bikers Dashboard.xlsx` to see the finalized dataset used in Tableau.
-3. Load the dataset into Tableau to build or explore the visual dashboards.
-
-> If you're using Tableau Public and encounter a broken connection, relink the data source to the `.xlsx` file manually.
+- **SQL (MySQL / PostgreSQL / etc.)** – For data cleaning and analytical querying  
+- **CSV** – Raw data source imported into the SQL environment
 
 ---
 
-## 🧹 Data Cleaning Steps
+## 🚀 How to Use
 
-- Removed duplicates and handled missing/null values.
-- Standardized column headers and naming conventions.
-- Converted data types appropriately (e.g., dates, numbers).
-- Derived new fields for enhanced analysis such as:
-  - `Profit Margin`
-  - `Order Month`
-  - `Year of Sale`
+1. Import `layoffs.csv` into your SQL database as a table (e.g., `layoffs`).
+2. Run `Data Cleaning.sql` to clean and standardize the dataset.
+3. Execute `Exploratory Data Analysis.sql` to generate insights and summaries.
+
+> You can export the final results or use the cleaned data for dashboarding in tools like Tableau or Power BI.
 
 ---
 
 ## 👨‍💻 Author
 
 **Dev Bansal**  
-🎓 Undergraduate Student | 🚴 Dashboard Enthusiast | 📊 Data Scientist in Progress
+🎓 Undergraduate Student | 🧠 Data Analyst in Progress | 📊 SQL Enthusiast
 
-📬 Connect with me on [LinkedIn](https://www.linkedin.com/in/devbansals)
+📬 [Connect on LinkedIn](https://www.linkedin.com/in/devbansals)
 
 ---
 
